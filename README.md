@@ -99,7 +99,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 15. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
       
       - [Gaming on Apple Silicon resources](#gaming-on-apple-silicon-resources)
-      - [Manage Temps/Control Fans (CPU and GPU)](#Manage-TempsControl-Fans-CPU-and-GPU)
+      - [Manage Temps/Fans (CPU and GPU)](#Manage-TempsFans-CPU-and-GPU)
       - [Gaming Peripherals](#Gaming-Peripherals)
         * [Gaming mice, keyboards, and headsets](#RGB-Devices)
         * [Game Controllers](#Game-controllers)
@@ -1381,6 +1381,24 @@ Nexcloud Hub
 [Orico USB4.0 NVMe SSD Enclosure](https://www.orico.cc/us/product/detail/7328.html) is a high-performance SSD Enclosure engineered with up to a 40Gbps transmission rate and 2 TB capacity. It supports Windows, macOS, and Linux devices.
 
 [USB-C to Lightning Cable (2 m)](https://www.apple.com/shop/product/MQGH2AM/A/usb-c-to-lightning-cable-2-m) is cable to connect your iPhone, iPad, or iPod with Lightning connector to your USB-C or Thunderbolt 3 (USB-C) enabled Mac for syncing and charging, or to your USB-C enabled iPad for charging.
+
+**More fast External Storage options for MacOS/iOS/iPadOS:**
+
+ * [Kingston XS2000 Portable SSD](https://www.amazon.com/Kingston-Performance-Pocket-Sized-SXS2000-2000G/dp/B09F6279PY)
+ * [Crucial X8](https://www.amazon.com/Crucial-X8/s?k=Crucial+X8)
+ * [Samsung Portable SSD X5](https://www.samsung.com/us/computing/memory-storage/portable-solid-state-drives/portable-ssd-x5-1tb-mu-pb1t0b-am/)
+ * [Samsung Portable SSD T7 Touch](https://www.samsung.com/us/computing/memory-storage/portable-solid-state-drives/portable-ssd-t7-touch-usb-3-2-500gb-black-mu-pc500k-ww/)
+ * [SanDisk Professional Pro-G40 SSD](https://www.westerndigital.com/products/portable-drives/sandisk-professional-pro-g40-ssd)
+ * [SanDisk Professional G-Drive ArmorATD](https://www.westerndigital.com/products/portable-drives/sandisk-professional-g-drive-armoratd-usb-3-1-hdd)
+ * [WD Black P10](https://www.westerndigital.com/products/portable-drives/wd-black-p10-game-drive-usb-3-2-hdd)
+ * [WD Black D10](https://www.westerndigital.com/products/external-drives/wd-black-d10-game-drive-usb-3-2-hdd)
+ * [WD My Passport (5TB)](https://www.westerndigital.com/products/portable-drives/wd-my-passport-usb-3-0-hdd)
+ * [OWC Envoy Pro EX With USB-C](https://www.amazon.com/OWC-Envoy-External-Storage-Solution/dp/B07T7X7HRK)
+ * [LaCie Rugged SSD Pro](https://www.lacie.com/products/rugged/)
+ * [LaCie Rugged RAID Shuttle](https://www.lacie.com/products/rugged/)
+ * [LaCie 2big RAID](https://www.lacie.com/products/big/2big/)
+ * [LaCie Mobile Drive](https://www.lacie.com/products/mobile-drive/)
+ * [CalDigit AV Pro 2](https://www.caldigit.com/av-pro-2/)
 
 ## Backups
 
@@ -3703,20 +3721,25 @@ Parallels Desktop for Mac
  - **[Apple Arcade Subreddit](https://www.reddit.com/r/AppleArcade/)**
  
  
-## Manage Temps/Control Fans (CPU and GPU)
+## Manage Temps/Fans (CPU and GPU)
 
 [Back to the Top](#table-of-contents)
 
-[MacsFanControl](https://crystalidea.com/macs-fan-control) is a to control fans on Apple computers.
 
- **Features:**
+[Stats](https://github.com/exelban/stats) is a tool that allows you to monitor your macOS system in the menubar.
+
+ * Battery level
+ * Bluetooth devices
+ * CPU utilization
+ * Disk utilization
+ * Fan's control
+ * GPU utilization
+ * Memory usage
+ * Network usage
+ * Sensors information (Temperature/Voltage/Power)
  
-   * Real-time monitoring of fan speeds and temperatures
-   * Solve overheating problems like those found on a MacBook Pro
-   * Works on all Macs, both Intel & Apple Silicon
-   
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/208856182-b685a2c1-e55c-4634-804b-b1a3ba48fd41.png">
+ <p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/224650106-1be2ae52-e54d-48b1-acbd-a71a9fc1d1d1.png">
 </p>
 
 
@@ -3730,7 +3753,6 @@ Parallels Desktop for Mac
   <img src="https://user-images.githubusercontent.com/45159366/208857140-af14f17a-3f18-49a3-a413-ca692b88e745.png">
 </p>
 
-[smcFanControl](https://github.com/hholtmann/smcFanControl) is a tool that lets the user set a minimum speed for built-in fans. It allows you to increase your minimum fan speed to make your Intel or Apple Silicon Mac run cooler. 
  
 ## Gaming Peripherals
 
