@@ -11,7 +11,8 @@ A
    **AGX:** The internal name for Apple's GPU series.
    
    **AIC:** Apple Interrupt Controller. Apple's custom ARM interrupt controller, because the standard GIC was too standard for Apple.
-   **ANS:** NVME / storage coprocessor?
+   
+   **ANS:** NVME/storage coprocessor.
    
    **AP: Application Processor**. The main CPU running most of the OS. Contrast to SEP.
    
@@ -22,7 +23,9 @@ A
    
    **APFS Volume:** a logical filesystem within an APFS container, that can be mounted on a directory.
    
-  **ASC:** Possible generic name for Coprocessors
+   **ASC:** Possible generic name for Coprocessors
+   
+   **ARM64(AKA AArch64):** A 64-bit extension of the ARM architecture family being first introduced with the **Armv8-A** architecture. 
 
 B
 
