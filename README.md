@@ -80,6 +80,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
       - [Game Porting Toolkit](#game-porting-toolkit)
       - [Whisky Wine wrapper](#whisky)
       - [CrossOver for MacOS](#CrossOver-for-MacOS)
+      - [Gaming on Xbox Game Pass](#gaming-on-xbox-game-pass) 
       - [Manage Temps/Fans (CPU and GPU)](#Manage-TempsFans-CPU-and-GPU)
       - [Gaming Peripherals](#Gaming-Peripherals)
         * [Gaming mice, keyboards, and headsets](#RGB-Devices)
@@ -2264,7 +2265,7 @@ Issues may be fixed by enrolling into the Steam beta.
 [Whisky](https://github.com/IsaacMarovitz/Whisky) is tool that provides a clean and easy to use graphical wrapper for Wine built in native SwiftUI. It can make and manage bottles, install and run Windows apps and games. Whisky is built on top of [CrossOver 22.1.1](https://www.codeweavers.com/crossover/download-now) and Apple's [Game Porting Toolkit](https://github.com/apple/homebrew-apple/tree/main/Formula) developed by [Isaac Marovitz](https://twitter.com/isaacmarovitz) and help from [Gcenx](https://github.com/Gcenx).
 
 <p align="center">
-<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/d1f60a22-6b30-4406-a837-6e37ea72f22d">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/7c44f35b-78a1-4d48-a01a-cf065b458a0b">
 <br />
 </p>
 
@@ -2276,9 +2277,205 @@ Issues may be fixed by enrolling into the Steam beta.
 
  * [CrossOver Apps Compatibility Database](https://www.codeweavers.com/compatibility?browse=&app_desc=&company=&rating=&platform=&date_start=&date_end=&name=ea&search=app#results)
  
-  * **Recommended:** [Microsoft Visual C++ Redistributable ARM64 Version](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+ * **Recommended:** [Microsoft Visual C++ Redistributable ARM64 Version](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
-<img src="https://user-images.githubusercontent.com/45159366/206895903-e4ba0fc7-9df7-43b2-90f1-6e096c2e4c44.png">
+[![5 New Features Revealed—Level Up Your Gaming with CrossOver 23](https://ytcards.demolab.com/?id=wtHJ3TReI-4&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "5 New Features Revealed—Level Up Your Gaming with CrossOver 23")](https://www.youtube.com/watch?v=wtHJ3TReI-4) 
+[![How to play Astroneer on Mac with CrossOver 23](https://ytcards.demolab.com/?id=Mr2az2vGWtY&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "How to play Astroneer on Mac with CrossOver 23")](https://www.youtube.com/watch?v=Mr2az2vGWtY) 
+[![THIS makes CrossOver BETTER than Game Porting Toolkit!](https://ytcards.demolab.com/?id=AxKK3ctISnk&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "THIS makes CrossOver BETTER than Game Porting Toolkit!")](https://www.youtube.com/watch?v=AxKK3ctISnk)  
+
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/b7315971-bf00-4070-8c3f-12ea38a3e1fd">
+
+## Gaming on Xbox Game Pass
+
+[Back to the Top](#table-of-contents)
+
+**Note:** Xbox Game Pass Cloud Gaming can be accessed on macOS, iPadOS, and iOS through [Apple's Safari browser](https://support.xbox.com/help/games-apps/cloud-gaming/setup-cloud-gaming-apple), though, for the best performance I recommend using [Microsoft's Edge browser](https://www.microsoft.com/edge/download?form=MA13FJ). Also, you can use [Parallels](https://www.parallels.com/) to run games on Windows 11 within macOS. Though, only 2D (Hollow Knight, Celeste, etc..) and lower graphics games run well natively with Parallels.
+
+[Xbox Game Pass](https://xbox.com/xbox-game-pass) is a video game subscription services from Microsoft starting at $9.99 and $14.99 for the [Ultimate Pass](https://www.xbox.com/en-US/xbox-game-pass/ultimate). 
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/a3c67440-bce6-45b2-b18b-8fb5b1c9ba4f">
+</br>
+</p>
+
+### A list of great [Game Pass](https://www.xbox.com/) Games to play.
+
+**May 23** 
+
+  * Planet of Lana (Xbox Series X|S Optimized, Xbox One, Windows PC, & Xbox Cloud Gaming)
+
+**May 25**
+
+  * Cassette Beasts (Xbox Series X|S, Xbox One, & Windows PC)
+
+**May 30**
+
+   * Chicory: A Colorful Tale (Xbox Series X|S Optimized, Xbox One, Windows PC, & Xbox Cloud Gaming)
+   * Farworld Pioneers (Xbox Series X|S, Xbox One, & Windows PC)
+    
+**June 1**
+
+   * Car Mechanic Simulator 2021 (Xbox Series X|S Optimized, Xbox One, Windows PC, & Xbox Cloud Gaming)
+   * Slayers X: Terminal Aftermath: Vengeance of the Slayer (Xbox Series X|S, Xbox One, Windows PC, & Xbox Cloud Gaming)
+   * The Big Con (Xbox Series X|S Optimized, Xbox One, Windows PC, & Xbox Cloud Gaming)
+
+**June 6**
+
+   * Amnesia: The Bunker (Xbox Series X|S, Xbox One, Windows PC, & Xbox Cloud Gaming)
+   * Hypnospace Outlaw (Xbox Series X|S, Xbox One, Windows PC, & Xbox Cloud Gaming)
+
+
+**June 8**
+
+   * Rune Factory 4 Special (Xbox Series X|S, Xbox One, Windows PC, & Xbox Cloud Gaming)
+   * Stacking (Xbox Series X|S, Xbox One, & Xbox Cloud Gaming)
+    
+**June 13**
+
+   * Dordogne (Xbox Series X|S, Xbox One, Windows PC, & Xbox Cloud Gaming)
+   
+**June 22**
+
+   * The Bookwalker: Thief of Tales (Xbox Series X|S, Xbox One, Windows PC, & Xbox Cloud Gaming)
+   * Need for Speed: Unbound (Xbox Series X|S Optimized, Windows PC, & Xbox Cloud Gaming) via **EA Play**
+
+**June 27**
+
+   * Bramble: The Mountain King (Xbox Series X|S Optimized, Xbox One, Windows PC, & Xbox Cloud Gaming)
+   * F.I.S.T.: Forged in Shadow Torch (Xbox Series X|S, Windows PC, & Xbox Cloud Gaming)
+
+**June 29**
+
+   * Story of Seasons: Friends of Mineral Town (Xbox Series X|S, Xbox One, & Windows PC)
+
+**July 3**
+
+   * Arcade Paradise (Xbox Series X|S, Xbox One, & Windows PC)
+
+**July 5**
+
+   * Grand Theft Auto V (Xbox Series X|S, Xbox One, & Xbox Cloud Gaming)
+
+   * Sword and Fairy: Together Forever (Xbox Series X|S, Xbox One, & Windows PC)
+   
+**July 6**
+
+ * McPixel 3 (Xbox Series X|S, Xbox One, Windows PC, & Xbox Cloud Gaming)
+ 
+**July 11**
+
+ * Common’hood (Xbox Series X|S, Xbox One, Windows PC, & Xbox Cloud Gaming)
+ * Insurgency: Sandstorm (Windows PC)
+ 
+**July 14**
+ 
+ * Exoprimal (Xbox Series X|S, Xbox One, Windows PC, & Xbox Cloud Gaming)
+ 
+**July 18**
+
+   * Techtonica (Xbox Series X|S, Xbox One, & Windows PC)
+   * The Cave (Xbox Series X|S, Xbox One, & Xbox Cloud Gaming)
+   
+**July 31**
+    
+   * Venba (Xbox Series X|S, Xbox One, & Windows PC)
+
+**August 1**
+
+ * Celeste (Cloud, Xbox Series X|S, and PC)
+
+**August 3**
+
+ * A Short Hike (Cloud, Xbox Series X|S, and PC)
+
+**August 8**
+
+ * Broforce Forever (Cloud, Xbox Series X|S, and PC)
+
+**August 9**
+
+ * Limbo (Cloud, (Xbox Series X|S, and PC) 
+
+**August 10**
+
+ * Airborne Kingdom (Cloud, Xbox Series X|S, and PC)
+
+**August 15**
+
+ * Everspace 2 (Cloud and Xbox Series X|S) 
+
+**August 18**	
+
+ * The Texas Chain Saw Massacre (Xbox Series X|S, PC, Cloud)
+
+**August 29**	
+
+ * Sea of Stars (Xbox Series X|S, Cloud)
+ 
+**September 5**
+
+ * Gris (Cloud, Console, and PC) 
+   
+**September 6** or **September 1 with [Starfield Premium Edition Upgrade](https://www.xbox.com/games/store/starfield-premium-edition-upgrade/9PB4ZWV7S2MG/0017)**
+
+   * Starfield Direct (Xbox Series X|S, Cloud, & Windows PC)
+   
+** September 19**
+
+ * Lies of P (Xbox Series X|S, Cloud, & Windows PC)
+
+** September 20**
+
+ * Party Animals (Xbox Series X|S, Xbox One, & Windows PC)
+
+** September 23**
+
+ * Payday 3 (Xbox Series X|S, Cloud, & Windows PC)
+ 
+**September 29**
+ 
+   * Cocoon (Xbox Series X|S, Xbox One, & Windows PC)
+ 
+**November 2**
+ 
+   * Thirsty Suitors (Xbox Series X|S, Xbox One, & Windows PC)
+
+**Early 2024**
+    
+   * Bounty Star (Xbox Series X|S, Xbox One, & Windows PC)
+   * Ghostbike (Xbox Series X|S, Xbox One, & Windows PC)
+   * Flock (Xbox Series X|S, Xbox One, & Windows PC)
+   * To A T (Xbox Series X|S, Xbox One, & Windows PC)
+
+   
+## Setting up Game Pass for Offline use (Windows Only)
+ 
+ * **Make sure to use [Parallels](https://www.parallels.com/) to run Windows 11 on macOS. Also, only 2D (Hollow Knight, Celeste, etc..) and lower graphics games run well natively with Parallels.**
+
+ * **Note:** Most games with a campaign mode will be playable offline, but games with network co-op or multiplayer features will not work while you’re offline. Before you go offline, connect to the Xbox network to sync your most recent game save to the cloud. While you play offline, your game save progress will continue to be saved locally, and it’ll sync the next time you sign in to Xbox. If you want to continue playing on a different device, you’ll need to go online and connect to the Xbox network to allow your local saved game to sync with the cloud again.
+
+ * **Note 2:** PC Game Pass game licenses expire after 30 days when playing offline, and licenses for owned games expire after 14 days. To keep playing your game offline, go back online and launch the game. This renews the game’s license on your device and ensures you can go back to playing offline.  
+
+You can only have one device as your designated offline device. **To set your device as your designated offline device:**
+
+  * Make sure that you’re online.
+  * Check that your device has the latest Windows updates: **Go to Start -> Settings -> Update & security -> Windows Update and see if any relevant updates are available**.
+  * Open the Microsoft Store. You’ll be prompted to sign in if you haven’t already.
+  * Select your profile icon in the upper right corner.
+  * Select App settings, and then under Offline permissions, make sure that the toggle is set to On.
+
+Once you set this, any devices previously designated as offline will be toggled to Off, and you’ll no longer be able to play games offline on those devices.
+
+**Prepare your game or games**
+
+Once your device is set up, you’ll need to launch each game you want to play offline while signed in to the Xbox network. You only need to do this once per game, and you’ll need to do this even if you’ve already launched the game on your device.
+
+  * Make sure that you’re online, and that your device is set as your designated offline device. (See the steps above for details on how to do this.)
+  * Launch the game you want to play offline. When prompted, sign in to Xbox.
+  * Once you’ve started playing the game, you can exit at any time.
+
+Repeat this process for each game you want to play offline. Once completed, you can go offline at any time and launch those games whenever you want to play them, without needing to sign in online each time.
+
  
 ## Manage Temps/Fans (CPU and GPU)
 
@@ -2842,7 +3039,7 @@ Cartridge Features
 
 [m64p](https://m64p.github.io/) is a Nintendo 64 Emulator. It uses mupen64plus-gui, a brand new mupen64plus frontend written in Qt5. It supports all of the things you’d expect from a frontend (savestate management, pausing, screenshots). 
 
-Nintendo 3DS
+### Nintendo 3DS
 
 [Citra](https://citra-emu.org/) is an open-source emulator for the Nintendo 3DS capable of playing many of your favorite games.
 
@@ -4442,7 +4639,7 @@ Parallels Desktop for Mac
  Ubuntu on UTM
 </p>
 
-[VMware Fusion 22H2](https://blogs.vmware.com/teamfusion/2022/07/just-released-vmware-fusion-22h2-tech-preview.html) is a software hypervisor developed by VMware for Mac computers.It creates a virtual machine and install an operating system (such as Windows or Linux) inside that virtual machine.
+[VMware Fusion](https://blogs.vmware.com/teamfusion/2022/07/just-released-vmware-fusion-22h2-tech-preview.html) is a software hypervisor developed by VMware for Mac computers.It creates a virtual machine and install an operating system (such as Windows or Linux) inside that virtual machine.
 
   * Windows 11 on Intel and Apple Silicon, with 2D graphics and networking support.
   * VMTools installation support for Windows 11 guest operating system on M1-based Macs.
@@ -4470,6 +4667,8 @@ The Linux kernel 6.2 offers mainline support for the Apple M1 Pro, Max, and Ultr
   - [Asahi Linux Feature Support](https://github.com/AsahiLinux/docs/wiki/Feature-Support)
   
   - [Asahi Linux Wiki](https://github.com/AsahiLinux/docs/wiki)
+  
+  - [Conformant OpenGL® ES 3.1 drivers are now available for M1/ +M2-family GPUs](https://rosenzweig.io/blog/first-conformant-m1-gpu-driver.html)
 
 [M1N1](https://github.com/AsahiLinux/m1n1) is a bootloader and experimentation playground for Apple Silicon.
 
@@ -4517,8 +4716,12 @@ While you will end up with a fairly usable computer, the exact hardware features
 
 For more general information about Linux on Apple Silicon Macs, refer to the [Asahi Linux project](https://asahilinux.org/) and [alpha installer release](https://asahilinux.org/2022/03/asahi-linux-alpha-release/). 
 
+* [Our new flagship distro: Fedora Asahi Remix - Asahi Linux](https://asahilinux.org/2023/08/fedora-asahi-remix/)
+* [Fedora Asahi Remix project](https://fedora-asahi-remix.org/)
+* [Fedora Asahi Remix packages for Apple Silicon](https://packages.fedoraproject.org/pkgs/asahi-scripts/asahi-scripts/)
+* [Fedora COPR Pacakges for Asahi](https://copr.fedorainfracloud.org/groups/g/asahi/coprs/)
 * [Fedora Asahi Special Interest Group](https://fedoraproject.org/wiki/SIGs/Asahi)
- 
+
 [Asahi-Fedora-Builder](https://github.com/leifliddy/asahi-fedora-builder) is a script that builds a minimal Fedora image to run on Apple M1/M2 systems.
 
 **Installing a Prebuilt Image**
@@ -5189,6 +5392,12 @@ cd ubuntu-asahi
 # Running Windows 10/11 on the Apple Silicon
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
+[![Windows 11 ARM on Mac? Parallels vs VMware vs UTM](https://ytcards.demolab.com/?id=lsik-eGJIog&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Windows 11 ARM on Mac? Parallels vs VMware vs UTM")](https://www.youtube.com/watch?v=lsik-eGJIog)
+[![VMware can FINALLY GAME on Mac and.. IT'S FREE?](https://ytcards.demolab.com/?id=Mqn1yoV_OW4&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "VMware can FINALLY GAME on Mac and.. IT'S FREE?")](https://www.youtube.com/watch?v=Mqn1yoV_OW4)
+[![Windows on a Mac JUST got better](https://ytcards.demolab.com/?id=Ar4kx13TxBo&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Windows on a Mac JUST got better")](https://www.youtube.com/watch?v=Ar4kx13TxBo)
+[![How to Install Windows 11 on Mac for FREE using UTM VM app](https://ytcards.demolab.com/?id=5Z_G6QG7xxg&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "How to Install Windows 11 on Mac for FREE using UTM VM app")](https://www.youtube.com/watch?v=5Z_G6QG7xxg)
+[![How to install Windows 11 on Mac M1/M2 Processors for Free (UTM)](https://ytcards.demolab.com/?id=b_hGkl9CSbM&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "How to install Windows 11 on Mac M1/M2 Processors for Free (UTM)")](https://www.youtube.com/watch?v=b_hGkl9CSbM)
+
 [Parallels Desktop for Mac](https://www.parallels.com/products/desktop/) is a program that let's you runs Windows side-by-side with macOS (no restarting required) on your MacBook, MacBook Pro, iMac, iMac Pro, Mac mini or Mac Pro. Share files and folders, copy and paste images and text & drag and drop files between Mac and Windows applications.
 
 <p align="center">
@@ -5209,7 +5418,7 @@ Parallels Desktop for Mac
  Windows 11 on UTM
 </p>
  
-[VMware Fusion 22H2](https://blogs.vmware.com/teamfusion/2022/07/just-released-vmware-fusion-22h2-tech-preview.html) is a software hypervisor developed by VMware for Mac computers.It creates a virtual machine and install an operating system (such as Windows or Linux) inside that virtual machine.
+[VMware Fusion](https://blogs.vmware.com/teamfusion/2022/07/just-released-vmware-fusion-22h2-tech-preview.html) is a software hypervisor developed by VMware for Mac computers.It creates a virtual machine and install an operating system (such as Windows or Linux) inside that virtual machine.
 
   * Windows 11 on Intel and Apple Silicon, with 2D graphics and networking support.
   * VMTools installation support for Windows 11 guest operating system on M1-based Macs.
