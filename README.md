@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/b5db66fd-07b1-4e54-9dd9-44e25dc00ab9">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/41de57da-156b-428c-b4b3-29b4594ae256">
 <br />
 </p>
 
@@ -25,6 +25,13 @@
 
 **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
 
+
+<p align="center">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/bc1a4580-6500-44f8-ac84-0d746719a423">
+<br />
+Apple M3/M3 Pro/M3 Max/M3 Ultra Architectures.
+</p>
+
 <p align="center">
 <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/05a63ff1-c221-415c-a563-0476cbe28f95">
 <br />
@@ -39,10 +46,11 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 # Table of Contents
 
-1. [Getting Started with Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#getting-started-with-apple-silicon)
-   
+1. [Getting Started with Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#getting-started-with-apple-silicon)  
+   * [A17 Pro](#a17-pro)
    * [A16 Bionic](https://github.com/mikeroyal/Apple-Silicon-Guide#A16-Bionic)
    * [H2](https://github.com/mikeroyal/Apple-Silicon-Guide#H2)
+   * [S9](#s9)
    * [U1](https://github.com/mikeroyal/Apple-Silicon-Guide#U1)
    * [R1](#R1)
    * [M1](https://github.com/mikeroyal/Apple-Silicon-Guide#m1)
@@ -53,6 +61,10 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
    * [M2 Pro](#M2-Pro)
    * [M2 Max](#M2-Max)
    * [M2 Ultra](#M2-Ultra)
+   * [M3](#m3)
+   * [M3 Pro](#m3-pro)
+   * [M3 Max](#m3-max)
+   * [M3 Ultra](#m3-ultra)
    * [Apple AR and Vision Pro Headset](#apple-ar-and-vision-pro-headset)
    * [Devices powered by Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#Devices-powered-by-Apple-Silicon)
    * [Getting Software](https://github.com/mikeroyal/Apple-Silicon-Guide#Getting-Software)
@@ -71,9 +83,11 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
    * [Checking Battery Health](https://github.com/mikeroyal/Apple-Silicon-Guide#Checking-Battery-Health)
       - [Turning on Low Power Mode](#low-power-mode)
    * [Charging/Powerbanks](#ChargingPowerbanks)
+      - [USB-C Adapters](#usb-c-adapters)
+      - [USB-C Fast Charging Cables (from 3.3-10ft)](#usb-c-fast-charging-cables)
    * [MacOS/iOS Security Hardening](https://github.com/mikeroyal/Apple-Silicon-Guide#macosios-security-hardening)
    
- 2. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
+ 1. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
       
       - [Gaming on Apple Silicon resources](#gaming-on-apple-silicon-resources)
       - [MacOS Game Mode](#macos-game-mode)
@@ -126,36 +140,36 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
         * [MAME](#MAME)
       - [Performance Benchmarks](#performance-benchmarks)
 
-3. [Wafer Level Multi-Chip Packaging Technology](https://github.com/mikeroyal/Apple-Silicon-Guide#wafer-level-multi-chip-packaging-technology)
+2. [Wafer Level Multi-Chip Packaging Technology](https://github.com/mikeroyal/Apple-Silicon-Guide#wafer-level-multi-chip-packaging-technology)
  
     - [InFO (Integrated Fan-Out) Wafer Level Packaging](https://github.com/mikeroyal/Apple-Silicon-Guide#info-integrated-fan-out-wafer-level-packaging)
     - [Chip on Wafer on Substrate (CoWoS)](https://github.com/mikeroyal/Apple-Silicon-Guide#chip-on-wafer-on-substrate-cowos)
 
-4. [Xcode Development](https://github.com/mikeroyal/Apple-Silicon-Guide#xcode-development)
+3. [Xcode Development](https://github.com/mikeroyal/Apple-Silicon-Guide#xcode-development)
 
-5. [Core ML Development](https://github.com/mikeroyal/Apple-Silicon-Guide#core-ml-development)
+4. [Core ML Development](https://github.com/mikeroyal/Apple-Silicon-Guide#core-ml-development)
 
-6. [Metal Development](https://github.com/mikeroyal/Apple-Silicon-Guide#Metal-development)
+5. [Metal Development](https://github.com/mikeroyal/Apple-Silicon-Guide#Metal-development)
 
-7. [Visual Studio Studio (VSCode) Development](#vscode-development)
+6. [Visual Studio Studio (VSCode) Development](#vscode-development)
 
      - [VS Code Extensions for Developer Productivity](#VS-Code-Extensions-for-Developer-Productivity) 
 
-8. [Unreal Engine 5 Development](#Unreal-Engine-5-Development)
+7. [Unreal Engine 5 Development](#Unreal-Engine-5-Development)
  
-9. [Unity Development](#Unity-Development)
+8. [Unity Development](#Unity-Development)
  
-10. [Blender Development](#Blender-Development)
+9. [Blender Development](#Blender-Development)
 
-11. [Virtualization](https://github.com/mikeroyal/Apple-Silicon-Guide#virtualization)
+10. [Virtualization](https://github.com/mikeroyal/Apple-Silicon-Guide#virtualization)
 
-12. [Docker](https://github.com/mikeroyal/Apple-Silicon-Guide#docker)
+11. [Docker](https://github.com/mikeroyal/Apple-Silicon-Guide#docker)
 
-13. [Kubernetes](https://github.com/mikeroyal/Apple-Silicon-Guide#kubernetes)
+12. [Kubernetes](https://github.com/mikeroyal/Apple-Silicon-Guide#kubernetes)
 
-14. [Ansible](https://github.com/mikeroyal/Apple-Silicon-Guide#ansible)
+13. [Ansible](https://github.com/mikeroyal/Apple-Silicon-Guide#ansible)
 
-15. [Running Linux on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-linux-on-the-apple-silicon)
+14. [Running Linux on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-linux-on-the-apple-silicon)
      * [Linux Virtualization on Apple Silicon](#Linux-Virtualization-on-Apple-Silicon)
      * [Asahi Linux Development](#Asahi-Linux-Development)
      * [Fedora Linux Development](#Fedora-Linux-Development)
@@ -163,19 +177,19 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
      * [Debian Linux Development](#Debian-Linux-Development)
      * [Ubuntu Linux Development](#Ubuntu-Linux-Development)
 
-16. [Running Windows 10/11 on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-apple-silicon)
+15. [Running Windows 10/11 on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-apple-silicon)
 
-17. [Game Development](https://github.com/mikeroyal/Apple-Silicon-Guide#game-development)
+16. [Game Development](https://github.com/mikeroyal/Apple-Silicon-Guide#game-development)
 
-18. [Professional Audio/Video Development](https://github.com/mikeroyal/Apple-Silicon-Guide#professional-audiovideo-development)
+17. [Professional Audio/Video Development](https://github.com/mikeroyal/Apple-Silicon-Guide#professional-audiovideo-development)
 
-19. [3D Graphics & Design](https://github.com/mikeroyal/Apple-Silicon-Guide#3d-graphics-and-design)
+18. [3D Graphics & Design](https://github.com/mikeroyal/Apple-Silicon-Guide#3d-graphics-and-design)
 
-20. [Swift Development](https://github.com/mikeroyal/Apple-Silicon-Guide#swift-development)
+19. [Swift Development](https://github.com/mikeroyal/Apple-Silicon-Guide#swift-development)
 
-21. [Objective-C Development](https://github.com/mikeroyal/Apple-Silicon-Guide#objective-c-development)
+20. [Objective-C Development](https://github.com/mikeroyal/Apple-Silicon-Guide#objective-c-development)
 
-22. [C/C++ Development](https://github.com/mikeroyal/Apple-Silicon-Guide#cc-development)
+21. [C/C++ Development](https://github.com/mikeroyal/Apple-Silicon-Guide#cc-development)
 
 # Getting Started with Apple Silicon
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
@@ -224,6 +238,22 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 ## Apple Silicon Chips
 
+### A17 Pro
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/23206325-fc71-4d3d-9203-798275475176">
+</br>
+</p>
+
+**A17 Pro** is built on new 3nm architecture. It has **6-CPU cores**, with the 2-performance cores 10% faster and the 4-efficiency cores significantly more efficient. Along with a 6-core GPU that is 20 percent faster than the A16 Bionic(iPhone 15 & 15 Plus models). The Neural Engine, will be almost twice as fast as the A16 Bionic. Apple has also added hardware-accelerate ray-tracing to the A17 Pro GPU. The A17 Pro chip is available in the iPhone 15 Pro and 15 Pro Max.
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/ee123e8c-37f1-4f00-8322-4b2202233968">
+</br>
+Apple A17 Pro Architecture. Image Credit: Apple
+</p>
+
 ### A16 Bionic
 [Back to the Top](#table-of-contents)
 
@@ -256,6 +286,23 @@ A16 Bionic Chip Architecture
 </p>
 
 H2 chip powering the AirPods Pro. Credit: [Apple](https://www.apple.com/newsroom/2022/09/apple-announces-the-next-generation-of-airpods-pro/)
+
+### S9
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/849aaf59-93f2-4ea1-bb9f-efbc646ad65d">
+</br>
+</p>
+
+The S9 chip has 60% more transistors in its CPU than the Series 8, and 30% more in its GPU. Along with neural engine boosting on-device processing for Siri requests, including 25% faster voice dictation in the Apple Watch Series 9.
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/b1ea6161-ca66-48bc-9570-0b6a0fa756cd">
+</br>
+S9 Chip for Apple Watch Series 9. Image Credit: Apple
+</p>
 
 
 ### U1 
@@ -527,6 +574,86 @@ The M2 Ultra is composed of **two M2 Max chips** that are connected together usi
 
 The M2 Ultra can be configured with up to **192GB** of high-bandwidth, low-latency unified memory that can be accessed by the **24-core CPU, 76-core GPU (800GB/s memory bandwidth), and 32-core Neural Engine**. The M2 Ultra is available for the [Mac Studio](https://www.apple.com/mac-studio/) and [Mac Pro](https://www.apple.com/mac-pro/).
 
+### M3‌
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/81a6ba78-0096-416b-9976-677a6c7e7778">
+</br>
+</p>
+
+**Apple M3 Chip** has a **35% faster CPU, 65% faster GPU, and 40% faster Neural Engine than the base [M1 chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1)**. It can be configured with up to **24GB** of high-bandwidth, low-latency unified memory that can be accessed by the **8-core CPU (4 high-performance and 4 energy-efficient), 10-core GPU (100GB/s memory bandwidth), and 16-core Neural Engine**. Available in the [MacBook Pro 14”](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m3) and [iMac](https://www.apple.com/shop/buy-mac/imac).
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/05f0c5e5-76f4-488d-995f-468f81e980e6">
+</br>
+M3 Chip Architecture. Image Credit: Apple
+</p>
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/0fdff7fa-348b-4716-b615-12c0b848b337">
+</br>
+M3 Chip Family efficiency cores performance. Image Credit: Apple
+</p>
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/8030518f-2e79-4418-b66e-970cd1c74cd4">
+</br>
+M3 Chip Family Neural Engine performance. Image Credit: Apple
+</p>
+
+### M3 Pro
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/6f0bcd5b-38f4-4243-bbb3-7ec4191758bb">
+</br>
+</p>
+
+**Apple M3 Pro Chip** has a **30% faster CPU, 40% faster GPU, and 40% faster Neural Engine than the base [M1 Pro chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1-Pro)**. It can be configured with up to **36GB** of high-bandwidth, low-latency unified memory that can be accessed by the **12-core CPU (6 high-performance and 6 energy-efficient), 18-core GPU (150GB/s memory bandwidth), and 16-core Neural Engine**. Available in the [MacBook Pro 14”](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m3-pro) and [MacBook Pro 16”](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-m3-pro).
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/d588605b-c665-4949-aa1c-ee721d68b0d4">
+</br>
+M3 Pro Chip Architecture. Image Credit: Apple
+</p>
+
+### M3 Max
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/30dd49e5-9f86-4b29-9b4f-c89e13ef8ee3">
+</br>
+</p>
+
+**Apple M3 Max Chip** has a **80% faster CPU, 50% faster GPU, and 40% faster Neural Engine than the base [M1 Max chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1-Max)**. It can be configured with up to **128GB** of high-bandwidth, low-latency unified memory that can be accessed by the **16-core CPU (12 high-performance and 4 energy-efficient), 40-core GPU (400GB/s memory bandwidth), and 16-core Neural Engine**. Available in the [MacBook Pro 14”](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m3-max) and [MacBook Pro 16”](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-m3-max).
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/5410b9e9-a150-4425-b285-e91222c06ca5">
+</br>
+M3 Max Chip Architecture. Image Credit: Apple
+</p>
+
+### M3 Ultra
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/8e8f62d9-31f7-4852-a5af-c45c8847c037">
+</br>
+</p>
+
+**Apple M3 Ultra Chip** is a Apple's most powerful silicon chip in their M3-series lineup. The M3 Ultra is composed of **two M3 Max chips** that are connected together using [Apple's UltraFusion Architecture](https://github.com/mikeroyal/Apple-Silicon-Guide/files/8248834/US20220013504A1.pdf) packaging. This means the M1 Ultra can be configured with up to 256GB of high-bandwidth, low-latency unified memory that can be accessed by the **32-core CPU (24 high-performance and 8 energy-efficient), 80-core GPU (800GB/s memory bandwidth), and 32-core Neural Engine**.
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/0e80d38b-9619-482e-b9af-a60e9e51a56a">
+</br>
+M3 Ultra Chip Architecture. 
+</p>
+
 
 ## Apple AR and Vision Pro Headset
 
@@ -563,7 +690,7 @@ R1 & M2 chips in the Vision Pro Headset. Image Credit: Apple
  visionOS. Image Credit: Apple
 </p>
 
-* [visionOS](https://www.apple.com/newsroom/2023/06/introducing-apple-vision-pro/) is Apple's iOS-like operating system for their upcoming AR/VR (Augmented Reality/Virtual Reality) headset powered by Apple's Silicon M2 and R1 chips. It will have an App Store with apps that include mixed-reality versions of their core Apple apps like **[Messages](https://support.apple.com/messages), [FaceTime](https://support.apple.com/facetime), [Maps](https://www.apple.com/maps/), and AR/VR games from [Apple Arcade](https://www.apple.com/apple-arcade/)**. Along with features such as [Memojis](https://apps.apple.com/us/story/id1445637997) and [SharePlay](https://support.apple.com/guide/iphone/use-shareplay-to-watch-and-listen-together-iphb657eb791/ios) that could be central to the user experience. 
+* [visionOS](https://developer.apple.com/visionos/) is Apple's iOS-like operating system for their upcoming AR/VR (Augmented Reality/Virtual Reality) headset powered by Apple's Silicon M2 and R1 chips. It will have an App Store with apps that include mixed-reality versions of their core Apple apps like **[Messages](https://support.apple.com/messages), [FaceTime](https://support.apple.com/facetime), [Maps](https://www.apple.com/maps/), and AR/VR games from [Apple Arcade](https://www.apple.com/apple-arcade/)**. Along with features such as [Memojis](https://apps.apple.com/us/story/id1445637997) and [SharePlay](https://support.apple.com/guide/iphone/use-shareplay-to-watch-and-listen-together-iphb657eb791/ios) that could be central to the user experience. 
  
  **visionOS Resources**
  
@@ -689,52 +816,79 @@ Devices powered by Apple Silicon.
 </p>
 
 ### macOS
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [macOS](https://www.apple.com/macos) is an advanced desktop operating system (OS) for Apple's series of desktops and laptops.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/172230572-2d86197a-ce2a-4eaa-a508-e2c148b60057.png">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/5cfa8b3e-1dd9-49d6-bd11-0422252632f7">
 <br />
 </p>
 
-**macOS Ventura. Source: [Apple](https://www.apple.com/macos/monterey/)**
+**macOS Sonoma. Source: [Apple](https://www.apple.com/macos/sonoma/)**
+
+**These are the Mac computers compatible with macOS Sonoma:**
+
+  * iMac 2019 and later
+  * iMac Pro 2017
+  * Mac Pro 2019 and later
+  * Mac Studio 2022 and later
+  * MacBook Air 2018 and later
+  * MacBook Pro 2018 and later
+  * Mac mini 2018 and later
 
 ### iOS
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [iOS](https://www.apple.com/ios/) is an advanced mobile operating system (OS) for Apple's series of iPhone products.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/172230685-96be6cd0-118f-48d7-b7b9-e258580cd66a.png">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/df41724d-e26a-4bf9-8d1c-7548c8f4b7bf">
 <br />
 </p>
 
-**iOS 16. Source: [Apple](https://www.apple.com/ios)**
+**iOS 17. Source: [Apple](https://www.apple.com/ios)**
 
 ### iPadOS
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [iPadOS](https://www.apple.com/ipados/) is an advanced mobile operating system (OS) for Apple's series of iPad products.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/172230690-b628a77f-963c-44bd-b84b-9e76a2082ef3.png">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/d446af0b-00c3-455f-85fa-8694f340e780">
 <br />
 </p>
 
-**iPadOS 16. Source: [Apple](https://www.apple.com/ipados)**
+**iPadOS 17. Source: [Apple](https://www.apple.com/ipados)**
 
 ###  watchOS
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [watchOS](https://www.apple.com/watchos/) is an advanced mobile operating system (OS) for Apple's series of Watch products.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/172230694-4accbc04-9057-4280-84d2-42927131fc8c.png">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/5779ce06-9441-4502-a8d9-1d4fd034d61e">
 <br />
 </p>
 
-**watchOS 9. Source: [Apple](https://www.apple.com/watchos/)**
+**watchOS 10. Source: [Apple](https://www.apple.com/watchos/)**
+
+###  tvOS
+
+[tvOS](https://www.apple.com/tv-home/) is an advanced mobile operating system (OS) for Apple's series of TV streaming devices.
+
+<p align="center">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/7e3fc9e5-cc4b-49e2-ba5c-028dc42fccb3">
+<br />
+</p>
+
+**tvOS. Source: [Apple](https://www.apple.com/tv-home/)**
+
+### visionOS
+
+[visionOS](https://www.apple.com/newsroom/2023/06/introducing-apple-vision-pro/) is Apple's iOS-like operating system for their upcoming AR/VR (Augmented Reality/Virtual Reality) headset powered by Apple's Silicon M2 and R1 chips. It will have an App Store with apps that include mixed-reality versions of their core Apple apps like **[Messages](https://support.apple.com/messages), [FaceTime](https://support.apple.com/facetime), [Maps](https://www.apple.com/maps/), and AR/VR games from [Apple Arcade](https://www.apple.com/apple-arcade/)**. Along with features such as [Memojis](https://apps.apple.com/us/story/id1445637997) and [SharePlay](https://support.apple.com/guide/iphone/use-shareplay-to-watch-and-listen-together-iphb657eb791/ios) that could be central to the user experience. 
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/e1f5d708-87a8-4b45-bfc9-03860cb6ebea">
+  <br />
+ visionOS. Image Credit: Apple
+</p>
 
 ## Getting Software
 
@@ -1672,7 +1826,7 @@ Checking Battery on your iOS device.
 
 [Back to the Top](#table-of-contents)
 
-While the Apple Silicon Macbooks have great battery life. It's always good to have a portable powerbank for charging your device when you're traveling, conferences, etc..
+While the Apple Silicon Macbooks, iPhones, iPads, and Air Pods have great battery life. It's always good to have a portable USB-C powerbank for charging your device when you're traveling, conferences, etc..
 
 * [Using USB-C cables with your Mac](https://support.apple.com/guide/mac-help/use-usb-c-cables-mchl447b9239/mac)
 * [Apple USB-C Charge Cable (2m) on Amazon](https://www.amazon.com/Apple-USB-C-Charge-Cable-2m/dp/B01MQ5Z080)
@@ -1702,6 +1856,40 @@ While the Apple Silicon Macbooks have great battery life. It's always good to ha
 [HenHot 65W USB-C Portable Charger](https://www.amazon.com/HenHot-20000mAh-Laptop-Portable-Charger/dp/B09SLCV819)
 
 [Baseus 65W USB-C Power Bank with Built-in Cable](https://www.amazon.com/Portable-Charger-Baseus-20000mAh-Charging/dp/B08THFDRSZ)
+
+### USB-C Adapters
+
+[Back to Top](#table-of-contents)
+
+ * [JSAUX USB-C to USB Adapter (2 Pack)](https://www.amazon.com/JSAUX-Adapter-Compatible-MacBook-Samsung/dp/B07BS8SRWH/)
+
+ * [Anker USB-C Adapter (2 Pack)](https://www.amazon.com/Adapter-Anker-High-Speed-Transfer-Notebook/dp/B08HZ6PS61/)
+
+ * [Basesailor USB to USB-C Adapter (2 Pack)](https://www.amazon.com/Female-Adapter-Charger-Airpods-Samsung/dp/B079LYHNSR/)
+
+ * [Syntech USB-C to USB Adapter (2 Pack)](https://www.amazon.com/Syntech-Adapter-Thunderbolt-Compatible-MacBook/dp/B07CVX3516/)
+
+ * [Apple USB-C to USB Adapter](https://www.amazon.com/Apple-USB-C-to-USB-Adapter/dp/B00VU2OID2/)
+
+### USB-C Fast Charging Cables
+
+[Back to Top](#table-of-contents)
+ 
+ * [Baseus Minimalist USB-C to USB-C Cable 100W](https://www.baseus.com/products/minimalist-usb-c-to-usb-c-cable-100w)
+
+ * [Baseus USB-C Fast Charging Cable 240W](https://www.baseus.com/products/usb-c-fast-charging-cable-240w)
+
+ * [Baseus PD 100W USB C to USB C Cable(6.6 ft), 5A Fast Charging USB C Cable with LED Display](https://www.amazon.com/Baseus-Charging-Display-Braided-Compatible/dp/B0B6CF1YYF?th=1)
+
+ * [Baseus Cafule USB-C to USB-C Cable( 6.6 ft) 100W](https://www.baseus.com/products/cafule-usb-c-to-usb-c-cable-100w-6-6-ft)
+
+ * [Anker 333 USB C to USB C Cable (6ft 100W, 2-Pack)](https://www.amazon.com/Anker-2-Pack-Charging-MacBook-Samsung/dp/B09LCJPZ1P/)
+
+ * [JSAUX USB C to USB C Cable 100W/5A [2-Pack 6.6ft+6.6ft], QC 4.0/USB PD Type-C Fast Charging](https://www.amazon.com/JSAUX-Charging-Braided-Compatible-Matebook/dp/B07GZH2WTV/)
+
+ * [USB C to USB C Cable, 3.2 Gen 2 USB-C Cable 10ft - 4K UHD 20Gbps USB C Cable 100W PD Fast Charging Cable](https://www.amazon.com/USB-Cable-3-1-USB-C-10ft/dp/B089FV33QX/)
+
+ * [AINOPE 100W USB C to USB C Cable 10ft, USB C Charger Cable](https://www.amazon.com/AINOPE-Charging-Braided-compatible-MacBook/dp/B094YDZQ1C/)
 
 
 ## MacOS/iOS Security Hardening
@@ -2435,10 +2623,120 @@ Issues may be fixed by enrolling into the Steam beta.
 **September 29**
  
    * Cocoon (Xbox Series X|S, Xbox One, & Windows PC)
- 
+
+**October 3**
+
+   * The Lamplighter’s League (Console, PC)
+
+**October 4**
+  
+  *  Warhammer 40,000 Darktide (Console [Xbox Series X|S])
+
+**October 10**
+   
+  * Forza Motorsport  (Console[Xbox Series X|S], PC, Cloud)
+    
+**October 24**
+
+  * Cities Skylines 2 (Console[Xbox Series X|S], PC, Cloud)
+
+**October 26**
+    
+  * Mineko’s Night Market (Console[Xbox Series X|S], PC)
+
+**October 31**    
+  
+  *  Headbangers Rhythm Royale (Console[Xbox Series X|S])    
+  *  Jusant(Console[Xbox Series X|S], PC, Cloud)
+
+**November 1**
+
+ * Age of Empires II: Definitive Edition – The Mountain Royals (Cloud, Console, and PC) 
+
 **November 2**
+
+ * PlateUp! (Console)
+ * Thirsty Suitors (Cloud, Console, and PC) 
+
+** November 6**
+
+ * Football Manager 2024 (PC)
+ * Football Manager 2024 Console (Cloud, Console, and PC) 
  
-   * Thirsty Suitors (Xbox Series X|S, Xbox One, & Windows PC)
+**November 7**
+
+ * Roboquest 1.0 (Cloud, Console, and PC) 
+
+**November 9**
+
+ * Dungeons 4 (Cloud, Console, and PC) 
+ * Like A Dragon Gaiden: The Man Who Erased His Name (Cloud, Console, and PC) 
+ * Wild Hearts (Cloud, Console, and PC) EA Play 
+
+**November 13**
+
+ * Spirittea (Cloud, Console, and PC) 
+
+**November 14**
+
+ * Coral Island (Cloud and Xbox Series X|S)
+
+**Games Leaving November 15, 2023**
+
+ * Coffee Talk (Cloud, Console, and PC)
+ * Exapunks (PC)
+ * Ghost Song (Cloud, Console, and PC)
+ * Gungrave G.O.R.E (Cloud, Console, and PC)
+ * Football Manager 2023 (PC)
+ * Football Manager 2023 Console (Cloud, Console, and PC)
+ * Lapin (Cloud, Console, and PC)
+ * Townscaper (Cloud, Console, and PC)
+
+**November 28**
+
+ * Rollerdrome  (PC, Cloud and Xbox Series X|S)
+
+**December 1**
+
+ * Remnant: From the Ashes (Cloud, Console, and PC)
+ * Spirit of the North (Cloud, Console, and PC) 
+ * SteamWorld Build (Cloud, Console, and PC)
+
+**December 5**
+
+ * Clone Drone in the Danger Zone (Cloud, PC, and Xbox Series X|S)
+ * Rise of the Tomb Raider (Cloud, Console, and PC)
+ * While the Iron’s Hot (Cloud, Console, and PC)
+ * World War Z: Aftermath (Cloud, Console, and PC)
+
+**December 6 - Coming to Game Pass Core**
+ * Chivalry 2 
+ * Totally Reliable Delivery Service
+
+**December 7**
+
+ * Goat Simulator 3 (Cloud, PC, and Xbox Series X|S)
+
+**December 8**
+
+ * Against the Storm (PC)
+
+**December 13**
+
+ * Tin Hearts (Cloud, Console, and PC)
+
+**December 14**
+
+ * Far Cry 6 (Cloud, Console, and PC)
+
+**Leaving December 15**
+
+The following games are leaving soon save up to 20% on these games to keep them in your library.
+
+  * Chained Echoes (Cloud, Console, and PC)
+  * Opus Magnum (PC)
+  * Potion Craft: Alchemist Simulator (Cloud, Console, and PC)
+  * Rubber Bandits (Cloud, Console, and PC)
 
 **Early 2024**
     
