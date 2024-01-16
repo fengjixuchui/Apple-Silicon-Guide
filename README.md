@@ -17,7 +17,7 @@
  <a href="https://github.com/mikeroyal?tab=followers">
          <img alt="followers" title="Follow me on Github for Updates" src="https://custom-icon-badges.demolab.com/github/followers/mikeroyal?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a> 	
 
-![Maintenance](https://img.shields.io/maintenance/yes/2023?style=for-the-badge)
+![Maintenance](https://img.shields.io/maintenance/yes/2024?style=for-the-badge)
 ![Last-Commit](https://img.shields.io/github/last-commit/mikeroyal/apple-silicon-guide?style=for-the-badge)
 
 
@@ -1573,6 +1573,8 @@ Stage Manager is an iPadOS feature that provides better support for external dis
 
 [Nextcloud](http://nextcloud.com/) is a suite of client-server software for creating and using file hosting services. It offers an on-premise Universal File Access and sync platform with powerful collaboration capabilities and desktop, mobile and web interfaces. 
 
+[TeraCopy for Mac](https://www.codesector.com/teracopy-for-mac) is a program to copy and paste large files at a high speed. The program is used for frequent file transfers, large file sizes, moving files from separate SSD drives/Hard drives.
+
 [FileRun](https://hub.docker.com/r/filerun/filerun) is a self-hosted Google Drive alternative. It is a full featured web based file manager with an easy to use user interface.
 
 [FileBrowser](https://hub.docker.com/r/filebrowser/filebrowser) provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files. It allows the creation of multiple users and each user can have its own directory.
@@ -1690,6 +1692,8 @@ Nexcloud Hub
 [Orico USB4.0 NVMe SSD Enclosure](https://www.orico.cc/us/product/detail/7328.html) is a high-performance SSD Enclosure engineered with up to a 40Gbps transmission rate and 2 TB capacity. It supports Windows, macOS, and Linux devices.
 
 [USB-C to Lightning Cable (2 m)](https://www.apple.com/shop/product/MQGH2AM/A/usb-c-to-lightning-cable-2-m) is cable to connect your iPhone, iPad, or iPod with Lightning connector to your USB-C or Thunderbolt 3 (USB-C) enabled Mac for syncing and charging, or to your USB-C enabled iPad for charging.
+
+[SanDisk Phone Drive (iPhone, iPad, or MacBook) up to 256GB](https://www.westerndigital.com/products/usb-flash-drives/sandisk-phone-drive-lightning-usb-c?sku=SDIX70N-064G-GG6NN).
 
 **More fast External Storage options for MacOS/iOS/iPadOS:**
 
@@ -1874,7 +1878,11 @@ While the Apple Silicon Macbooks, iPhones, iPads, and Air Pods have great batter
 ### USB-C Fast Charging Cables
 
 [Back to Top](#table-of-contents)
- 
+
+ * [Apple Thunderbolt 4 (USB‑C) Pro Cable (1 m) | Apple](https://www.apple.com/shop/product/MU883AM/A/thunderbolt-4-usb%E2%80%91c-pro-cable-1-m)
+   
+ * [Apple Thunderbolt 4 (USB-C) Pro Cable (1.8 m) | Amazon](https://www.amazon.com/Apple-Thunderbolt-Pro-Cable-1-8/dp/B09V3KPJGZ)
+   
  * [Baseus Minimalist USB-C to USB-C Cable 100W](https://www.baseus.com/products/minimalist-usb-c-to-usb-c-cable-100w)
 
  * [Baseus USB-C Fast Charging Cable 240W](https://www.baseus.com/products/usb-c-fast-charging-cable-240w)
